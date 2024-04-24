@@ -68,3 +68,20 @@ let mother = {
 
 
 console.log("Are the two objects equal?", father == mother1);
+
+
+
+//fifth hw
+let weatherForecast = {
+    location: "New York City",
+    temperature: "68°F",
+    timeLength: "24 hours",
+    weather: "Partly cloudy",
+    conditions: "Mild with a chance of showers in the evening"
+};
+
+console.log("Weather Forecast for", weatherForecast.location);
+console.log("Temperature:", weatherForecast.temperature);
+console.log("Time Length:", weatherForecast.timeLength);
+console.log("Weather:", weatherForecast.weather);
+console.log("Conditions:", weatherForecast.conditions);
