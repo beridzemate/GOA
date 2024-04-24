@@ -35,3 +35,19 @@ console.log("Age:", father.age);
 
 
 
+//third hw
+
+console.log("Original values of the first task object:");
+console.log("First Name:", mother.firstName);
+console.log("Last Name:", mother.lastName);
+console.log("Age:", mother.age);
+
+mother.firstName = "NewFirstName";
+mother.lastName = "NewLastName";
+mother.age = 50;
+
+
+console.log("\nUpdated values of the first task object:");
+console.log("First Name:", mother.firstName);
+console.log("Last Name:", mother.lastName);
+console.log("Age:", mother.age);
