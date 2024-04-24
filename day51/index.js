@@ -60,14 +60,14 @@ let father1 = {
     age: 48
 };
 
-let mother = {
+let mother1 = {
     firstName: "Natalia",
     lastName: "Kharchenko",
     age: 45
 };
 
 
-console.log("Are the two objects equal?", father == mother1);
+console.log("Are the two objects equal?", father1 == mother1);
 
 
 
