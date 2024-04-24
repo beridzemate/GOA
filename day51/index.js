@@ -51,3 +51,20 @@ console.log("\nUpdated values of the first task object:");
 console.log("First Name:", mother.firstName);
 console.log("Last Name:", mother.lastName);
 console.log("Age:", mother.age);
+
+
+//fourth hw
+let father1 = {
+    firstName: "Nugzar",
+    lastName: "Beridze",
+    age: 48
+};
+
+let mother = {
+    firstName: "Natalia",
+    lastName: "Kharchenko",
+    age: 45
+};
+
+
+console.log("Are the two objects equal?", father == mother1);
